@@ -1,0 +1,22 @@
+[0;1;32m●[0m docker.service - Docker Application Container Engine
+     Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Thu 2023-09-21 20:20:47 +07; 11min ago
+TriggeredBy: [0;1;32m●[0m docker.socket
+       Docs: https://docs.docker.com
+   Main PID: 1113 (dockerd)
+      Tasks: 9
+     Memory: 73.7M
+        CPU: 857ms
+     CGroup: /system.slice/docker.service
+             └─1113 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+
+៩ 21 20:20:45 khanhubuntu-virtual-machine dockerd[1113]: time="2023-09-21T20:20:45.898632935+07:00" level=info msg="Starting up"
+៩ 21 20:20:45 khanhubuntu-virtual-machine dockerd[1113]: time="2023-09-21T20:20:45.907076352+07:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+៩ 21 20:20:46 khanhubuntu-virtual-machine dockerd[1113]: time="2023-09-21T20:20:46.112315387+07:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+៩ 21 20:20:46 khanhubuntu-virtual-machine dockerd[1113]: time="2023-09-21T20:20:46.114243022+07:00" level=info msg="Loading containers: start."
+៩ 21 20:20:46 khanhubuntu-virtual-machine dockerd[1113]: time="2023-09-21T20:20:46.812046298+07:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+៩ 21 20:20:46 khanhubuntu-virtual-machine dockerd[1113]: time="2023-09-21T20:20:46.946207821+07:00" level=info msg="Loading containers: done."
+៩ 21 20:20:47 khanhubuntu-virtual-machine dockerd[1113]: time="2023-09-21T20:20:47.004230841+07:00" level=info msg="Docker daemon" commit="24.0.5-0ubuntu1~22.04.1" graphdriver=overlay2 version=24.0.5
+៩ 21 20:20:47 khanhubuntu-virtual-machine dockerd[1113]: time="2023-09-21T20:20:47.004795583+07:00" level=info msg="Daemon has completed initialization"
+៩ 21 20:20:47 khanhubuntu-virtual-machine dockerd[1113]: time="2023-09-21T20:20:47.102260628+07:00" level=info msg="API listen on /run/docker.sock"
+៩ 21 20:20:47 khanhubuntu-virtual-machine systemd[1]: Started Docker Application Container Engine.

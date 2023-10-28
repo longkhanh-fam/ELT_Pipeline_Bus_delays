@@ -1,0 +1,14 @@
+/trash/*
+*.trash
+
+/minio/*
+*.minio
+
+/postgresql/*
+*.postgresql
+
+/Spark/*
+*.Spark
+
+/storage/*
+*.storage

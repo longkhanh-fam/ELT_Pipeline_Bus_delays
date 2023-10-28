@@ -1,0 +1,25 @@
+version: 2
+
+metrics:
+  - name: average_delay_per_bus_line_stop_per_weekday
+    label: Average delay per bus line & stop, grouped by weekday
+    model: ref('bus_delays')
+    calculation_method: average
+    expression: DelaySeconds
+    timestamp: RecordDateTime
+    time_grains: [month]
+    dimensions:
+      - BusLineId
+      - BusStopId
+      - DayOfWeek
+
+  - name: average_delay_per_bus_line_weather
+    label: Average delay per bus line & weather type
+    model: ref('bus_delays')
+    calculation_method: average
+    expression: DelaySeconds
+    timestamp: RecordDateTime
+    time_grains: [month]
+    dimensions:
+      - BusLineId
+      - Weather

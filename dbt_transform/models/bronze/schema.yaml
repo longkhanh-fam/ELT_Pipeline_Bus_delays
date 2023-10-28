@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: warehouse
+    database: postgres
+    schema: dataset
+    tables:
+      - name: wh_bus_in_june
+      - name: wh_temperature
+      - name: wh_humidity
+      - name: wh_weather_description
+
+models:
+  - name: bus_records
+
+  - name: humidity
+
+
+  - name: temperature
+
+
+
+  - name: weather_description
+

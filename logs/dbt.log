@@ -1,0 +1,81 @@
+[0m10:27:41.858998 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000121BCA6D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000121BCA6D090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000121BCA6CF50>]}
+
+
+============================== 10:27:41.863818 | 438bef63-1c24-405c-841c-c1d88261d587 ==============================
+[0m10:27:41.863818 [info ] [MainThread]: Running with dbt=1.6.0
+[0m10:27:41.864869 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': './', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init --profiles-dir ./', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:27:47.191560 [debug] [MainThread]: Starter project path: D:\Khanh_FDE04\venv\Lib\site-packages\dbt\include\starter_project
+[0m10:27:47.235583 [info ] [MainThread]: 
+Your new dbt project "dbt_transform" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:27:47.236530 [info ] [MainThread]: Setting up your profile.
+[0m10:27:50.004448 [info ] [MainThread]: Profile dbt_transform written to profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m10:27:50.005450 [debug] [MainThread]: Command `dbt init` succeeded at 10:27:50.005450 after 8.16 seconds
+[0m10:27:50.006448 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000121B6000610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000121B6000650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000121B6001290>]}
+[0m10:27:50.006448 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-10-05 13:24:45.911664 | 2db0c477-2fc1-4bbe-9213-a9b5d51b18ac ==============================
+[0m13:24:45.911664 [info ] [MainThread]: Running with dbt=1.3.0
+[0m13:24:45.911664 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'D:\\Khanh_FDE04\\Project', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m13:24:45.911664 [debug] [MainThread]: Tracking: tracking
+[0m13:24:45.947393 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018073D87D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018073D87AC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018073D87EB0>]}
+[0m13:25:08.189282 [debug] [MainThread]: Starter project path: C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\include\starter_project
+[0m13:25:10.620995 [info ] [MainThread]: Profile bus_delays_by_weather_and_days written to D:\Khanh_FDE04\Project\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m13:25:10.634446 [info ] [MainThread]: 
+Your new dbt project "bus_delays_by_weather_and_days" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:25:10.635523 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018073D99580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018073D994F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018073D99730>]}
+[0m13:25:10.635523 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-10-05 13:28:53.164254 | b237b321-e19b-4d9e-82bc-885602b276d3 ==============================
+[0m13:28:53.164254 [info ] [MainThread]: Running with dbt=1.3.0
+[0m13:28:53.164254 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'D:\\Khanh_FDE04\\Project', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m13:28:53.173116 [debug] [MainThread]: Tracking: tracking
+[0m13:28:53.199312 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A906DB700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A906DB9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A906DB880>]}
+[0m13:28:56.238306 [debug] [MainThread]: Starter project path: C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\include\starter_project
+[0m13:28:57.197628 [info ] [MainThread]: 
+Your new dbt project "bus_delays" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:28:57.198654 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A8E3836D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A8E383310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A907A5C70>]}
+[0m13:28:57.198654 [debug] [MainThread]: Flushing usage events

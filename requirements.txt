@@ -1,0 +1,13 @@
+dagster==1.4.4
+dagit==1.4.4
+dagster-postgres==0.20.4
+dagster-dbt==0.20.4
+pandas==1.5.3
+minio
+SQLAlchemy==1.4.46
+pymysql==1.0.2
+mysql-connector-python
+sqlalchemy
+pyarrow==11.0.0
+pyspark==3.4.1
+dagster-spark==0.20.4
